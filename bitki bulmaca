@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitki Bulma Oyunu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0fff0;
+            color: #2e8b57;
+            text-align: center;
+            padding: 20px;
+        }
+        .game-container {
+            margin: 20px auto;
+            max-width: 600px;
+            border: 1px solid #dcdcdc;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .plant-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .options {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .option {
+            background-color: #3cb371;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bitki Bulma Oyunu</h1>
+    <div class="game-container">
+        <img src="" alt="Bitki Resmi" id="plantImage" class="plant-image">
+        <div class="options" id="optionsContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
